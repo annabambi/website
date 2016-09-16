@@ -106,8 +106,9 @@ a {
   width: 272px;
   height: 204px;
   display: block;
-  margin: 0 auto;
   padding: 10px;
+  margin: 10px;
+  background-color: #f4f4f4;
 }
 
 .center-text-box {
