@@ -109,7 +109,7 @@ a {
   height: 204px;
   display: block;
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
   background-color: #f4f4f4;
 }
 
@@ -117,12 +117,18 @@ a {
   width: 150px;
   height: 100px;
   padding: 10px;
+  margin: 10px auto;
 }
 
 .center-text-box {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
+
+}
+
+.container_offset {
+  padding: 0px 10px 0 10px;
 }
 
 .center-text {
