@@ -138,3 +138,22 @@ a {
 .anchor {
   text-align: center;
 }
+
+/* font awesome logos */
+
+i.fa.fa-dribbble.fa-3x {
+  color: #E54D8C;
+  padding: 1px 18px 1px 1px;
+}
+
+i.fa.fa-twitter.fa-3x {
+  color: #2E9FF9;
+}
+
+i.fa.fa-dribbble.fa-3x:hover {
+  opacity: 0.75;
+}
+
+i.fa.fa-twitter.fa-3x:hover {
+  opacity: 0.75;
+}
