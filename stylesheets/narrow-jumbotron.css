@@ -28,6 +28,7 @@ a {
 
 /* Custom page header */
 .header {
+  
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -98,40 +99,54 @@ a {
   }
 }
 
-.project-name-text {
+.about-image {
   display: block;
   margin: 0 auto;
-  width: 300px;
+  width: 250px;
+  border-radius: 5px;
 }
 
 .work-image {
-  width: 272px;
-  height: 204px;
-  display: block;
+  width: 600px;
+  height: 440px;
   padding: 10px;
-  margin: 10px auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #f4f4f4;
 }
 
-.work-image-small {
-  width: 150px;
-  height: 100px;
-  padding: 10px;
-  margin: 10px auto;
+.heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.center-text-box {
+.work-image-small {
+  /* width: 250px; */
+  height: 300px;
+  padding: 20px;
+  display: block;
+  margin: auto;
+}
+
+.main-image {
+  /* width: 680px; */
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
+.text-box {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
-
 }
 
 .container_offset {
   padding: 0px 10px 0 10px;
 }
 
-.center-text {
+.text-center {
   text-align: center;
 }
 
@@ -156,4 +171,21 @@ i.fa.fa-dribbble.fa-3x:hover {
 
 i.fa.fa-twitter.fa-3x:hover {
   opacity: 0.75;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-list li {
+  display:inline;
+  margin: 10px;
+}
+
+.social-list li img {
+  height: 42px;
+}
+
+.p-description {
+  padding: 20px;
 }
