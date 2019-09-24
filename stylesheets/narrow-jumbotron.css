@@ -123,15 +123,15 @@ a {
 
 .work-image-small {
   /* width: 250px; */
-  height: 300px;
+  height: 270px;
   padding: 20px;
   display: block;
   margin: auto;
 }
 
 .main-image {
-  /* width: 680px; */
-  height: 500px;
+  max-width: 80%;
+  max-height: 420px;
   display: block;
   margin: auto;
 }
