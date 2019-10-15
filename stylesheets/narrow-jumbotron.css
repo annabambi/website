@@ -127,6 +127,7 @@ a {
   padding: 20px;
   display: block;
   margin: auto;
+  border-radius: 5px;
 }
 
 .main-image {
